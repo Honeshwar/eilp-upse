@@ -1,0 +1,27 @@
+{
+  "name": "elip-upse-backend",
+  "version": "1.0.0",
+  "description": "Elip UPSE Backend",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon main.js",
+    "start:prod ": "node main.js"
+  },
+  "keywords": [
+    "Elip"
+  ],
+  "author": "Honeshwar Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.3",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
