@@ -15,11 +15,14 @@
   "author": "Honeshwar Thakur",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1662.0",
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-validator": "^7.1.0",
     "mysql2": "^3.10.3",
-    "typeorm": "^0.3.20"
+    "typeorm": "^0.3.20",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
